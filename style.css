@@ -1,0 +1,70 @@
+body{
+    background-color: #232323;
+}
+
+.cuadrados{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: aqua;
+    margin: 3px;
+}
+
+.contenedor{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#message{
+    margin: 5%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* Botones Easy y Hard */
+.botones__dificultad{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+
+.botones__easy{
+    background-color: red
+}
+.botones__estandar{
+    background-color: green;
+}
+.botones__hard{
+    background-color: red;
+}
+
+/* BOTONES reiniciar y jugar nuevamente */
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+
+.boton{
+    width: 500px;
+    margin: 0 5%;
+}
+
+.botonReset{
+    display: none;
+}
