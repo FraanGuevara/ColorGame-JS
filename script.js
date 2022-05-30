@@ -39,16 +39,19 @@ botonJugarAgain.addEventListener('click', ()=>{
 
 const dificultadJuego = e =>{
     if(e.target.classList.contains('botones__easy')){
+        colorDisplay.style.background= "none";
         botonEasy.style.background = "rgb(0, 255, 0)";
         botonEstandar.style.background = "red";
         botonHard.style.background = "red";
         valor = 3
     }else if(e.target.classList.contains('botones__hard')){
+        colorDisplay.style.background= "none";
         botonEasy.style.background = "red";
         botonEstandar.style.background = "red";
         botonHard.style.background = "rgb(0, 255, 0)";
         valor = 9;
     }else{
+        colorDisplay.style.background= "none";
         botonEasy.style.background = "red";
         botonEstandar.style.background = "rgb(0, 255, 0)";
         botonHard.style.background = "";
