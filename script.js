@@ -115,11 +115,10 @@ function juego (square){
         let resultado = colors[random]
         return resultado
     }
-    console.log(colors);
+    
     let pickedColor = pickColor();
     //Aca le agrego con la propiedad .innerHTML para que refleje el nombre del color que tengo guardado en pickedColor
     document.getElementById("colorDisplay").innerHTML=pickedColor;
-    console.log(pickedColor);
     
     //Agrego un evento de click a cada uno de los cuadrados
     let changeColors = function () {
